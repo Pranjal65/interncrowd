@@ -1,0 +1,46 @@
+#container1{
+    display :flex;
+    position:fixed;
+    background : url('../about.jpg') no-repeat center center/cover  ;
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 600px;
+    width: 1350px;
+}
+#container1::before{
+    content:"";
+    position: absolute;
+   
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    /*opacity: 0.79;
+    
+    */
+}
+.h-primary2{
+    font-size: 2.5rem;
+    margin: 1px;
+    font-family: 'Bree Serif', serif;
+}
+.box2{
+    text-align: center;
+    height: 250px;
+    width: 650px;
+    display: block;
+    padding-top: 20px;
+    margin: 0px;
+   
+    position: relative;
+    top: 0px;
+    left: 300px;
+    
+    
+    /*padding-left: 250px;
+    padding-top: 100px;*/
+}
+.info1{
+    margin: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,118 @@
+
+
+
+.h-prime{
+    font-size: 2.5rem;
+    margin: 1px;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    padding-left: 500px;
+    padding-top: 70px;
+}
+.box{
+    text-align: center;
+    height: 250px;
+    width: 400px;
+    display: block;
+    padding-top: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 3px gray;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    /*padding-left: 250px;
+    padding-top: 100px;*/
+}
+
+.h-primary{
+    font-size: 2.5rem;
+    margin: 1px;
+    font-family: 'Bree Serif', serif;
+}
+.h-secondary{
+    font-size: 1.5rem;
+    margin: 3px;
+    color: rgb(68, 30, 43);
+}
+.info{
+    margin: 1px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.btn{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color:black;
+    color: white;
+    margin: 17px;
+    font-size: 15px;
+    cursor: pointer
+    ;
+}
+.btn:hover{
+    color:black;
+    background-color:rgb(178, 169, 176);
+}
+
+#services{
+    position:relative;
+    
+    content: ""
+    
+}
+#services::before{
+    content:"";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.55;
+
+}
+
+
+.h-primary1{
+    font-size: 2.5rem;
+    margin: 1px;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    left: 590px;
+    margin: 10px;
+}
+.h-primary2{
+    font-size: 2.5rem;
+    margin: 1px;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    
+    margin: 10px;
+}
+#sect-services{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.box1{
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    display: block;
+    padding-top: 40px;
+    margin: 50px;
+    border: 4px solid black;
+    border-radius: 25px;
+    box-shadow: 7px 7px 10px 3px black;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+    
+    /*padding-left: 250px;
+    padding-top: 100px;*/
+}
+.box1 img{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 3px rgb(111, 110, 110);
+}
